@@ -1,0 +1,39 @@
+body {
+
+}
+
+nav {
+	overflow: hidden;
+	background-color: black;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+nav a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: grey;
+}
+
+#accueil {
+	padding: 16px;
+	margin-top: 30px;
+}
+
+#presentation {
+	margin: 10px;
+}
+
+#competences {
+	padding-left: 16px;
+	margin-top: -20px;
+}
