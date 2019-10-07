@@ -55,3 +55,17 @@ h1 {
 	width: 70%;
 	height: 120px;
 }
+
+#contact {
+	margin-top: 50px; 
+	animation: bounce .5s alternate 0.2s infinite ease-in;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-200%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
